@@ -1,5 +1,5 @@
 # node-hitbtc
-Node.js library for bitbank.cc, Bitcoin exchange.
+Node.js library for hitbtc, crypto currency exchange.
 
 
 
