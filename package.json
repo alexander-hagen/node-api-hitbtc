@@ -1,6 +1,6 @@
 {
-  "name": "node-hitbtc",
-  "version": "1.0.0",
+  "name": "node-api-hitbtc",
+  "version": "1.0.1",
   "description": "hitbtc node.js library",
   "main": "index.js",
   "scripts": {
@@ -11,13 +11,21 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yuma300/node-hitbtc"
+    "url": "git+https://github.com/alexander-hagen/node-api-hitbtc.git"
   },
-  "author": "yuma300",
+  "author": "Alexander-hagen",
   "license": "MIT",
   "dependencies": {
     "bluebird": "latest",
     "request": "latest",
     "request-promise": "latest"
+  },
+  "bugs": {
+    "url": "https://github.com/alexander-hagen/node-api-hitbtc/issues"
+  },
+  "homepage": "https://github.com/alexander-hagen/node-api-hitbtc#readme",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
   }
 }
