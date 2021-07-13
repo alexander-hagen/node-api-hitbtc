@@ -18,7 +18,8 @@
   "dependencies": {
     "bluebird": "latest",
     "request": "latest",
-    "request-promise": "latest"
+    "request-promise": "latest",
+    "ws": "latest"
   },
   "bugs": {
     "url": "https://github.com/alexander-hagen/node-api-hitbtc/issues"
