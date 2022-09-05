@@ -16,7 +16,7 @@
   "author": "Alexander-hagen",
   "license": "MIT",
   "dependencies": {
-    "axios": "latest5
+    "axios": "latest"
   },
   "bugs": {
     "url": "https://github.com/alexander-hagen/node-api-hitbtc/issues"
