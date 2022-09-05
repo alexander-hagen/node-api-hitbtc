@@ -1,6 +1,6 @@
 {
   "name": "node-api-hitbtc",
-  "version": "1.1.0",
+  "version": "1.0.25",
   "description": "hitbtc node.js library",
   "main": "index.js",
   "scripts": {
@@ -16,10 +16,7 @@
   "author": "Alexander-hagen",
   "license": "MIT",
   "dependencies": {
-    "bluebird": "latest",
-    "request": "latest",
-    "request-promise": "latest",
-    "ws": "latest"
+    "axios": "latest5
   },
   "bugs": {
     "url": "https://github.com/alexander-hagen/node-api-hitbtc/issues"
