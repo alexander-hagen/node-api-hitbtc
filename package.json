@@ -1,0 +1,35 @@
+{
+  "name": "node-api-hitbtc",
+  "version": "1.2.7",
+  "description": "Non-official implementation of HitBTC's API's",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --coverage --passWithNoTests --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexander-hagen/node-api-hitbtc.git"
+  },
+  "keywords": [
+    "hitbtc",
+    "tradebots.nl"
+  ],
+  "author": "Alexander Hagen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexander-hagen/node-api-hitbtc/issues"
+  },
+  "homepage": "https://github.com/alexander-hagen/node-api-hitbtc#readme",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.4",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
