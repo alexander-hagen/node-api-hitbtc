@@ -1,6 +1,6 @@
 {
   "name": "node-api-hitbtc",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "Non-official implementation of HitBTC's API's",
   "main": "index.js",
   "directories": {
