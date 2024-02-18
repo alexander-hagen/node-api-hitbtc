@@ -17,7 +17,7 @@ const
 
 // Normal requests
 
-describe('Spot Trading', () => {
+describe('Spot', () => {
 
   test('Test getSpotBalance() function', async () => {
     expect(stringIsArray(await privateAPI.getSpotBalance())).toBe(true);
@@ -52,7 +52,7 @@ describe('Spot Trading', () => {
 
 });
 
-describe('Margin Trading', () => {
+describe('Margin', () => {
 
   test('Test getMarginAccounts() function', async () => {
     expect(stringIsArray(await privateAPI.getMarginAccounts())).toBe(true);
@@ -89,7 +89,7 @@ describe('Margin Trading', () => {
 
 });
 
-describe('Future Trading', () => {
+describe('Futures', () => {
 
   test('Test getFuturesBalance() function', async () => {
     expect(stringIsArray(await privateAPI.getFuturesBalance())).toBe(true);
@@ -191,13 +191,13 @@ describe('Wallet', () => {
 
 });
 
-describe('All Sub-accounts', () => {
+describe('Sub-account', () => {
 
   test('Test getSubaccounts() function', async () => {
     expect(stringIsArray(await privateAPI.getSubaccounts())).toBe(true);
   }, timeout);
 
-  describe('One Sub-account', () => {
+  describe('Single Sub-account', () => {
 
     var account,acl,balance;
 
