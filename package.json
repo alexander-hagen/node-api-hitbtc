@@ -1,6 +1,6 @@
 {
   "name": "node-api-hitbtc",
-  "version": "1.2.9",
+  "version": "1.2.10",
   "description": "Non-official implementation of HitBTC's API's",
   "main": "index.js",
   "directories": {
@@ -8,7 +8,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest --coverage --passWithNoTests --verbose"
+    "test": "jest --coverage --passWithNoTests --verbose",
+    "patch": "npm version patch --no-git-tag-version"
   },
   "repository": {
     "type": "git",
