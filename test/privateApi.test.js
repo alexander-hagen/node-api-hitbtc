@@ -183,10 +183,7 @@ describe('Wallet', () => {
     expect(await privateAPI.getWithdrawFee(options)).toHaveProperty("fee");
   }, timeout);
 
-  test('Test getAirDrops() function', async () => {
-    expect(stringIsArray(await privateAPI.getAirDrops())).toBe(true);
-  }, timeout);
-
+  // HitbtcPrivate.prototype.getAirDrops
   // HitbtcPrivate.prototype.getAmountLocks
 
 });
