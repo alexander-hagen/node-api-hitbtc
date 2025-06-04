@@ -3,6 +3,13 @@
   "version": "1.2.18",
   "description": "Non-official implementation of HitBTC's API's",
   "main": "index.js",
+  "jest": {
+    "coverageReporters": [
+      "json-summary",
+      "text",
+      "lcov"
+    ]
+  },
   "directories": {
     "example": "example",
     "lib": "lib"
