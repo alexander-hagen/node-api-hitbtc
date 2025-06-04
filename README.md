@@ -1,5 +1,7 @@
 # node-api-hitbtc
 
+![Statements](badges/badge-statements.svg) ![Branch](badges/badge-branches.svg) ![Functions](badges/badge-functions.svg) ![Lines](badges/badge-lines.svg)
+
 Non-official implementation of HitBTC's API's. Developed for personal use.
 
 For support on using the API's or development issues, please refer to the official API documentation. For questions regarding this package, please consult the code first.
