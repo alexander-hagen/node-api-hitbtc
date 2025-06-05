@@ -1,6 +1,6 @@
 # node-api-hitbtc
 
-![Statements](badges/badge-statements.svg) ![Branch](badges/badge-branches.svg) ![Functions](badges/badge-functions.svg) ![Lines](badges/badge-lines.svg)
+![Statements](https://img.shields.io/badge/statements-48.17%25-red.svg?style=flat) ![Branch](badges/badge-branches.svg) ![Functions](https://img.shields.io/badge/functions-31.17%25-red.svg?style=flat) ![Lines](https://img.shields.io/badge/lines-53.07%25-red.svg?style=flat)
 
 Non-official implementation of HitBTC's API's. Developed for personal use.
 
