@@ -1,6 +1,6 @@
 {
   "name": "node-api-hitbtc",
-  "version": "1.2.21",
+  "version": "1.2.22",
   "description": "Non-official implementation of HitBTC's API's",
   "main": "index.js",
   "jest": {
@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "jest --coverage --passWithNoTests --verbose",
-    "badges": "istanbul-badges-readme",
+    "badges": "istanbul-badges-readme --colors=red:50,yellow:80",
     "patch": "npm version patch --no-git-tag-version"
   },
   "repository": {
