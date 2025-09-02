@@ -1,6 +1,6 @@
 {
   "name": "node-api-hitbtc",
-  "version": "1.2.22",
+  "version": "1.2.23",
   "description": "Non-official implementation of HitBTC's API's",
   "main": "index.js",
   "jest": {
